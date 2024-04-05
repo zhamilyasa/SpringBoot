@@ -6,5 +6,5 @@ CREATE TABLE car (
                             license_plate VARCHAR(20),
                             vin VARCHAR(50),
                             user_id BIGINT,
-                            FOREIGN KEY (user_id) REFERENCES public.users (id) -- Ссылка на таблицу users
+                            FOREIGN KEY (user_id) REFERENCES users (id) -- Ссылка на таблицу users
 );

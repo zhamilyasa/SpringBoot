@@ -77,4 +77,9 @@ public class UserServiceImpl implements UserService {
         return userMapper.toDto(userRepository.findAll());
     }
 
+    @Override
+    public Object getByUsername() {
+        return null;
+    }
+
 }

@@ -1,9 +1,11 @@
 package org.example.model.entity;
 
-import lombok.*;
-import org.example.model.entity.enums.Role;
-
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import org.example.model.entity.enums.Role;
 
 import java.util.List;
 import java.util.Set;
